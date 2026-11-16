@@ -6,7 +6,7 @@ One page (`index.html`), no build step.
 
 Amy only has to keep **Bookwhen** up to date. The site does the rest:
 
-- `update_classes.py` reads her public Bookwhen page (bookwhen.com/flourishfitnesswithamy) and writes `data/classes.js`: every class, its day, time, venue, prices, whether it's fully booked, the next dates, and the spaces left over the next two weeks.
+- `update_classes.py` reads her public Bookwhen page (bookwhen.com/flourishfitnesswithamy) and writes `data/classes.js`: every class, its day, time, venue, prices, whether it's fully booked, and the next dates. (Amy asked on 16.11.2026 for the number of spaces left NOT to be shown.)
 - The page builds the class cards, the "Coming up" list, the special-event card and each venue's class list from that file.
 - Every 3 hours Tom's iMac runs it (launchd job `com.tw.flourish-classes`, script `~/Tools/flourish-sync/sync.sh`, log `sync.log` beside it) and pushes `data/classes.js` when something has changed, so the live site follows Bookwhen on its own. It pauses while the Mac is off.
 - To move it off the Mac: give the GitHub token `workflow` scope and add `update-classes.yml` (kept in the Google Drive copy under `.github/workflows/`) to this repo. GitHub then runs it every 3 hours instead; unload the launchd job afterwards.

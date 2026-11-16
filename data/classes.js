@@ -164,7 +164,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-16",
    "start": "18:30",
    "soldOut": false,
-   "spaces": 5,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sb89c-20261116183000"
   },
   {
@@ -173,7 +172,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-17",
    "start": "10:30",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261117103000"
   },
   {
@@ -182,7 +180,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-19",
    "start": "18:15",
    "soldOut": false,
-   "spaces": 9,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s1hg3-20261119181500"
   },
   {
@@ -191,7 +188,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-19",
    "start": "19:15",
    "soldOut": false,
-   "spaces": 7,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s87kn-20261119191500"
   },
   {
@@ -200,7 +196,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-20",
    "start": "10:15",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261120101500"
   },
   {
@@ -209,7 +204,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-20",
    "start": "11:15",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
   },
   {
@@ -218,7 +212,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-20",
    "start": "19:00",
    "soldOut": false,
-   "spaces": 3,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sg3s4-20261120190000"
   },
   {
@@ -227,7 +220,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-23",
    "start": "18:30",
    "soldOut": false,
-   "spaces": 6,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sb89c-20261123183000"
   },
   {
@@ -236,7 +228,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-24",
    "start": "10:30",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261124103000"
   },
   {
@@ -245,7 +236,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-26",
    "start": "18:15",
    "soldOut": false,
-   "spaces": 10,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s1hg3-20261126181500"
   },
   {
@@ -254,7 +244,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-26",
    "start": "19:15",
    "soldOut": false,
-   "spaces": 7,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s87kn-20261126191500"
   },
   {
@@ -263,7 +252,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-27",
    "start": "10:15",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261120101500"
   },
   {
@@ -272,7 +260,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-27",
    "start": "11:15",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
   },
   {
@@ -281,7 +268,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-30",
    "start": "18:30",
    "soldOut": false,
-   "spaces": 6,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sb89c-20261130183000"
   },
   {
@@ -290,7 +276,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-01",
    "start": "10:30",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261201103000"
   },
   {
@@ -299,7 +284,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-03",
    "start": "18:15",
    "soldOut": false,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s1hg3-20261203181500"
   },
   {
@@ -308,7 +292,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-03",
    "start": "19:15",
    "soldOut": false,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s87kn-20261203191500"
   },
   {
@@ -317,7 +300,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-04",
    "start": "10:15",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261120101500"
   },
   {
@@ -326,7 +308,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-04",
    "start": "11:15",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
   },
   {
@@ -335,7 +316,6 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-07",
    "start": "18:30",
    "soldOut": false,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sb89c-20261207183000"
   },
   {
@@ -344,9 +324,8 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-15",
    "start": "10:30",
    "soldOut": true,
-   "spaces": null,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261215103000"
   }
  ],
- "checked": "2026-11-16T15:16Z"
+ "checked": "2026-11-16T15:43Z"
 };

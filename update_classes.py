@@ -142,28 +142,16 @@ def event(code):
 
 
 def tickets(code):
-    """Ticket rows on an event page: price, block or single, spaces left."""
+    """Ticket rows on an event page: price, and whether it is a block booking."""
     out = []
     for block in event_page(code).split('<tr class="ticket">')[1:]:
         block = block.split('</tr>')[0]
         p = re.search(r'currency_symbol">[^<]*</span>\s*([0-9.,]+)', block)
-        a = re.search(r'data-attrs="([^"]*)"', block)
-        attrs = json.loads(html.unescape(a.group(1))) if a else {}
         out.append({
             'price': float(p.group(1).replace(',', '')) if p else (0.0 if 'Free' in block else None),
             'course': 'Course ticket' in block,
-            'spaces': attrs.get('available_spaces'),
-            'soldOut': bool(attrs.get('sold_out')),
         })
     return out
-
-
-def spaces_left(code):
-    """Spaces left for one dated session (the single-class ticket if there is one)."""
-    tix = tickets(code)
-    single = [t for t in tix if not t['course']] or tix
-    vals = [t['spaces'] for t in single if isinstance(t['spaces'], int)]
-    return min(vals) if vals else None
 
 
 def build():
@@ -198,16 +186,9 @@ def build():
     for c in classes:
         mine = [s for s in sessions if s['key'] == c['key']]
         c['soldOutAll'] = all(s['soldOut'] for s in mine)
-    # spaces left, for the next two weeks only (one page per date, so keep the load on Bookwhen small)
-    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-    soon = datetime.fromtimestamp(time.time() + 14 * 86400, timezone.utc).strftime('%Y-%m-%d')
-    for s in sessions:
-        s['spaces'] = None
-        if not s['soldOut'] and today <= s['date'] <= soon and s['code'].endswith(s['date'].replace('-', '') + s['start'].replace(':', '') + '00'):
-            s['spaces'] = spaces_left(s['code'])
     order = {d: i for i, d in enumerate(DAYS)}
     classes.sort(key=lambda c: (c['oneOff'], order[c['weekday']], c['start']))
-    keep = ('key', 'title', 'date', 'start', 'soldOut', 'spaces', 'code')
+    keep = ('key', 'title', 'date', 'start', 'soldOut', 'code')
     sessions = [{k: s[k] for k in keep} for s in sessions]
     for s in sessions:
         s['url'] = f"{BASE}/e/{s.pop('code')}"
