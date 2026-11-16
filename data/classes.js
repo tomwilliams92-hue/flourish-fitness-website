@@ -9,14 +9,14 @@ window.FLOURISH_CLASSES = {
    "weekday": "Monday",
    "start": "18:30",
    "minutes": 45,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sb89c-20261116183000",
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sb89c-20261123183000",
    "end": "19:15",
    "venue": "Yr Hen Ysgol",
    "street": "Market Street",
    "town": "Abergele",
    "postcode": "LL22 7BP",
    "payg": 7.0,
-   "block": 24.5,
+   "block": 18.5,
    "description": [
     "Join us on a Monday evening for Women’s HIIT – a high-energy, feel-good fitness class designed Whether you're returning to fitness or looking to build strength in a supportive environment, this class is for you."
    ],
@@ -158,14 +158,6 @@ window.FLOURISH_CLASSES = {
   }
  ],
  "sessions": [
-  {
-   "key": "women s hiit",
-   "title": "Women's HIIT",
-   "date": "2026-11-16",
-   "start": "18:30",
-   "soldOut": false,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sb89c-20261116183000"
-  },
   {
    "key": "mumfit social",
    "title": "MumFit Social",
@@ -327,5 +319,5 @@ window.FLOURISH_CLASSES = {
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261215103000"
   }
  ],
- "checked": "2026-11-16T15:43Z"
+ "checked": "2026-11-16T21:21Z"
 };
