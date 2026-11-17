@@ -31,14 +31,14 @@ window.FLOURISH_CLASSES = {
    "weekday": "Tuesday",
    "start": "10:30",
    "minutes": 60,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261117103000",
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261124103000",
    "end": "11:30",
    "venue": "Yr Hen Ysgol",
    "street": "Market Street",
    "town": "Abergele",
    "postcode": "LL22 7BP",
    "payg": 9.5,
-   "block": 34.0,
+   "block": 25.5,
    "description": [
     "November 10th - Bonfire up your Fitness \nNovember 17th - Berry Strong Mama \nNovember 24th - Cirque de Baba \nDecember 1st - Jingle Bell Burn \nDecember 15th - Merry Fitmas"
    ],
@@ -158,14 +158,6 @@ window.FLOURISH_CLASSES = {
   }
  ],
  "sessions": [
-  {
-   "key": "mumfit social",
-   "title": "MumFit Social",
-   "date": "2026-11-17",
-   "start": "10:30",
-   "soldOut": true,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261117103000"
-  },
   {
    "key": "mumfit preglates",
    "title": "MumFit Preglates",
@@ -319,5 +311,5 @@ window.FLOURISH_CLASSES = {
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261215103000"
   }
  ],
- "checked": "2026-11-16T21:21Z"
+ "checked": "2026-11-17T12:41Z"
 };
