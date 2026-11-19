@@ -53,14 +53,14 @@ window.FLOURISH_CLASSES = {
    "weekday": "Thursday",
    "start": "18:15",
    "minutes": 45,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s1hg3-20261119181500",
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s1hg3-20261126181500",
    "end": "19:00",
    "venue": "OMG Fabulous",
    "street": "StudiOMG 1 Former JPW Builders Yard Water Street",
    "town": "Abergele",
    "postcode": "LL22 7SH",
    "payg": 8.5,
-   "block": 23.0,
+   "block": 15.5,
    "description": [
     "Join us for a calm, welcoming, and supportive class designed especially for expectant mums. MumFit Preglates combines safe and effective prenatal exercises with the gentle flow of Pilates to help you stay strong, mobile, and connected during pregnancy."
    ],
@@ -132,7 +132,7 @@ window.FLOURISH_CLASSES = {
    ],
    "blockOnly": true,
    "free": false,
-   "soldOutAll": true
+   "soldOutAll": false
   },
   {
    "key": "disco pilates prosecco or nosecco",
@@ -159,14 +159,6 @@ window.FLOURISH_CLASSES = {
  ],
  "sessions": [
   {
-   "key": "mumfit preglates",
-   "title": "MumFit Preglates",
-   "date": "2026-11-19",
-   "start": "18:15",
-   "soldOut": false,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s1hg3-20261119181500"
-  },
-  {
    "key": "pilates",
    "title": "Pilates",
    "date": "2026-11-19",
@@ -187,7 +179,7 @@ window.FLOURISH_CLASSES = {
    "title": "MumFit Lift+",
    "date": "2026-11-20",
    "start": "11:15",
-   "soldOut": true,
+   "soldOut": false,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
   },
   {
@@ -243,7 +235,7 @@ window.FLOURISH_CLASSES = {
    "title": "MumFit Lift+",
    "date": "2026-11-27",
    "start": "11:15",
-   "soldOut": true,
+   "soldOut": false,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
   },
   {
@@ -291,7 +283,7 @@ window.FLOURISH_CLASSES = {
    "title": "MumFit Lift+",
    "date": "2026-12-04",
    "start": "11:15",
-   "soldOut": true,
+   "soldOut": false,
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
   },
   {
@@ -311,5 +303,5 @@ window.FLOURISH_CLASSES = {
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261215103000"
   }
  ],
- "checked": "2026-11-17T12:41Z"
+ "checked": "2026-11-19T19:58Z"
 };
