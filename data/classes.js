@@ -133,39 +133,9 @@ window.FLOURISH_CLASSES = {
    "blockOnly": true,
    "free": false,
    "soldOutAll": false
-  },
-  {
-   "key": "disco pilates prosecco or nosecco",
-   "title": "Disco Pilates & Prosecco (or Nosecco)",
-   "oneOff": true,
-   "weekday": "Friday",
-   "start": "19:00",
-   "minutes": 60,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sg3s4-20261120190000",
-   "end": "20:00",
-   "venue": "OMG Fabulous",
-   "street": "StudiOMG 1 Former JPW Builders Yard Water Street",
-   "town": "Abergele",
-   "postcode": "LL22 7SH",
-   "payg": 15.5,
-   "block": null,
-   "description": [
-    "Grab your girls and join me for a fun-filled disco night out!"
-   ],
-   "blockOnly": false,
-   "free": false,
-   "soldOutAll": false
   }
  ],
  "sessions": [
-  {
-   "key": "disco pilates prosecco or nosecco",
-   "title": "Disco Pilates & Prosecco (or Nosecco)",
-   "date": "2026-11-20",
-   "start": "19:00",
-   "soldOut": false,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-sg3s4-20261120190000"
-  },
   {
    "key": "women s hiit",
    "title": "Women's HIIT",
@@ -279,5 +249,5 @@ window.FLOURISH_CLASSES = {
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261215103000"
   }
  ],
- "checked": "2026-11-20T12:51Z"
+ "checked": "2026-11-20T23:25Z"
 };
