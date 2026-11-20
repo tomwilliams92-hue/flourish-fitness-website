@@ -75,14 +75,14 @@ window.FLOURISH_CLASSES = {
    "weekday": "Thursday",
    "start": "19:15",
    "minutes": 45,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s87kn-20261119191500",
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s87kn-20261126191500",
    "end": "20:00",
    "venue": "OMG Fabulous",
    "street": "StudiOMG 1 Former JPW Builders Yard Water Street",
    "town": "Abergele",
    "postcode": "LL22 7SH",
    "payg": 8.5,
-   "block": 23.0,
+   "block": 15.5,
    "description": [
     "Join us for a calming Pilates class designed to restore both body and mind. This gentle session is perfect for all levels – no previous Pilates experience is required."
    ],
@@ -158,14 +158,6 @@ window.FLOURISH_CLASSES = {
   }
  ],
  "sessions": [
-  {
-   "key": "pilates",
-   "title": "Pilates",
-   "date": "2026-11-19",
-   "start": "19:15",
-   "soldOut": false,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s87kn-20261119191500"
-  },
   {
    "key": "mumfit lift",
    "title": "MumFit Lift",
@@ -303,5 +295,5 @@ window.FLOURISH_CLASSES = {
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261215103000"
   }
  ],
- "checked": "2026-11-19T19:58Z"
+ "checked": "2026-11-20T08:39Z"
 };
