@@ -97,7 +97,7 @@ window.FLOURISH_CLASSES = {
    "weekday": "Friday",
    "start": "10:15",
    "minutes": 45,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261120101500",
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261127101500",
    "end": "11:00",
    "venue": "Talargoch Trading Estate",
    "street": "Meliden Road, Dyserth",
@@ -119,14 +119,14 @@ window.FLOURISH_CLASSES = {
    "weekday": "Friday",
    "start": "11:15",
    "minutes": 50,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500",
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261127111500",
    "end": "12:05",
    "venue": "Talargoch Trading Estate",
    "street": "Meliden Road, Dyserth",
    "town": "Rhyl",
    "postcode": "LL18 6DJ",
    "payg": null,
-   "block": 30.4,
+   "block": 20.9,
    "description": [
     "MumFit Lift+ is a 4 Week Postnatal Small group PT(Bring Baby or Come Solo!)"
    ],
@@ -158,22 +158,6 @@ window.FLOURISH_CLASSES = {
   }
  ],
  "sessions": [
-  {
-   "key": "mumfit lift",
-   "title": "MumFit Lift",
-   "date": "2026-11-20",
-   "start": "10:15",
-   "soldOut": true,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261120101500"
-  },
-  {
-   "key": "mumfit lift+",
-   "title": "MumFit Lift+",
-   "date": "2026-11-20",
-   "start": "11:15",
-   "soldOut": false,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
-  },
   {
    "key": "disco pilates prosecco or nosecco",
    "title": "Disco Pilates & Prosecco (or Nosecco)",
@@ -220,7 +204,7 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-27",
    "start": "10:15",
    "soldOut": true,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261120101500"
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261127101500"
   },
   {
    "key": "mumfit lift+",
@@ -228,7 +212,7 @@ window.FLOURISH_CLASSES = {
    "date": "2026-11-27",
    "start": "11:15",
    "soldOut": false,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261127111500"
   },
   {
    "key": "women s hiit",
@@ -268,7 +252,7 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-04",
    "start": "10:15",
    "soldOut": true,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261120101500"
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s44xu-20261127101500"
   },
   {
    "key": "mumfit lift+",
@@ -276,7 +260,7 @@ window.FLOURISH_CLASSES = {
    "date": "2026-12-04",
    "start": "11:15",
    "soldOut": false,
-   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261120111500"
+   "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s3nww-20261127111500"
   },
   {
    "key": "women s hiit",
@@ -295,5 +279,5 @@ window.FLOURISH_CLASSES = {
    "url": "https://bookwhen.com/flourishfitnesswithamy/e/ev-s4umw-20261215103000"
   }
  ],
- "checked": "2026-11-20T08:39Z"
+ "checked": "2026-11-20T12:51Z"
 };
